@@ -1,49 +1,41 @@
-# MediGuard-AI 🏥
+# MediGuard-AI
 
-### Secure Medical IoT – Medical Wireless Sensor Network with AI-Based Anomaly Detection
+## Secure Medical IoT Project
 
-## 📌 About the Project
+MediGuard-AI is a project about Medical Wireless Sensor Networks. The main idea is to simulate a medical network and study how sensor data can be collected, analyzed and monitored.
 
-MediGuard-AI is a Secure Medical IoT project based on Medical Wireless Sensor Networks (MWSN). It uses network simulation, secure sensor communication, and data analysis to monitor medical sensor data and identify abnormal behaviors.
+The project uses OMNeT++ for network simulation and Python for displaying and analyzing the results.
 
-## 🎯 Main Objectives
+## Technologies Used
 
-- Simulate a secure Medical Wireless Sensor Network.
-- Monitor communication between medical sensors.
-- Analyze sensor data and detect anomalies.
-- Visualize simulation results through a dashboard.
-- Improve security and reliability in Medical IoT environments.
+- **C++:** Used to develop the sensor and medical application modules.
+- **OMNeT++ / NED:** Used to define and simulate the network.
+- **Python:** Used for data analysis and visualization.
+- **CSV:** Used to store simulation results.
 
-## 🛠️ Technologies Used
+## Project Files
 
-- **C++:** Sensor and medical application modules.
-- **NED:** Network topology definition using OMNeT++.
-- **Python:** Data analysis and visualization.
-- **CSV:** Simulation data storage.
+Some of the main files used in this project:
 
-## 📂 Project Components
+- `AdvancedSecureSensor.cc`
+- `MedicalApp.cc`
+- `dashboard.py`
+- `Graph.py`
+- NED files for network configuration
+- CSV files containing simulation data
 
-| Component | Description |
-|---|---|
-| AdvancedSecureSensor.cc | Secure sensor module |
-| MedicalApp.cc | Medical application module |
-| NED files | Network definition |
-| dashboard.py | Data visualization dashboard |
-| Graph.py | Graph generation and analysis |
-| CSV files | Simulation data storage |
+## Project Goals
 
-## 💡 Main Features
+- Simulate a medical sensor network.
+- Study communication between sensors.
+- Monitor collected data.
+- Analyze and display simulation results.
+- Detect abnormal sensor data.
 
-- Medical sensor network simulation.
-- Secure communication between network components.
-- Data collection and analysis.
-- Graphical visualization of results.
-- Anomaly detection.
+## Author
 
-## 👨‍💻 Author
+Youssef Er-radouany
 
-**Youssef Er-radouany**
+## Version
 
-## 📦 Version
-
-**v1.0 – Complete Project**
+v1.0
